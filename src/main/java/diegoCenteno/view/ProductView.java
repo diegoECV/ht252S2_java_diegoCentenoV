@@ -36,7 +36,7 @@ public class ProductView extends JFrame {
 
         // Panel de formulario
         JPanel formPanel = new JPanel(new GridLayout(5, 4, 10, 10));
-        formPanel.setBorder(BorderFactory.createTitledBorder("Datos del Equipo"));
+        formPanel.setBorder(BorderFactory.createTitledBorder("Datos de Equipos Informarticos"));
 
         formPanel.add(new JLabel("Código:"));
         txtCodigo = new JTextField();
